@@ -16,6 +16,7 @@
         <git-commit-id-plugin.version>4.0.0</git-commit-id-plugin.version>
     </properties>
 
+
     <dependencyManagement>
         <dependencies>
             <dependency>

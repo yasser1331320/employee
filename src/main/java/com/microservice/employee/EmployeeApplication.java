@@ -29,6 +29,7 @@ public class EmployeeApplication {
         SpringApplication.run(EmployeeApplication.class, args);
     }
 
+
     @Bean
     public Docket swaggerPersonApi10() {
         return new Docket(DocumentationType.SWAGGER_2)

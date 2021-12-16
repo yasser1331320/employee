@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
+
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ExceptionResponse> resourceNotFound(ResourceNotFoundException ex) {
         ExceptionResponse response = new ExceptionResponse();
